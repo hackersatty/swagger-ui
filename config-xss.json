@@ -1,0 +1,9 @@
+{
+  "url": "https://gist.githubusercontent.com/YOURUSERNAME/GIST_ID/raw/GIST_HASH/xss.yaml",
+  "urls": [
+    {
+      "url": "https://gist.githubusercontent.com/YOURUSERNAME/GIST_ID/raw/GIST_HASH/xss.yaml",
+      "name": "XSS Test"
+    }
+  ]
+}
