@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: "<script>alert('XSS')</script>"
+  version: "1.0.0"
+  description: "<img src=x onerror=alert('XSS')>"
+paths:
+  /xss:
+    get:
+      summary: "<svg/onload=alert('XSS in summary')>"
+      responses:
+        '200':
+          description: "<iframe src=javascript:alert('XSS in response')></iframe>"
